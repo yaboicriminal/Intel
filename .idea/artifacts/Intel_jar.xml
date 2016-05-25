@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Intel:jar">
+    <output-path>$USER_HOME$/Desktop/other server/plugins</output-path>
+    <root id="archive" name="Intel.jar">
+      <element id="module-output" name="Intel" />
+    </root>
+  </artifact>
+</component>

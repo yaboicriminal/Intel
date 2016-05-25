@@ -1,0 +1,4 @@
+spawn: ""
+
+##If the player's Y drops below the number below will be teleported to the spawn location above ^^
+below: 75
