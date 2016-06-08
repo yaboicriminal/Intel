@@ -90,7 +90,10 @@ public class Intel extends JavaPlugin {
 
     private Team getExistingOrCreateNewTeam(String string, Scoreboard scoreboard, String prefix) {
         Team toReturn = scoreboard.getTeam(string);
-
+        if(toReturn != null) {
+            toReturn.unregister();
+        }
+        
         if (toReturn == null) {
             toReturn = scoreboard.registerNewTeam(string);
             toReturn.setPrefix(prefix + "");
